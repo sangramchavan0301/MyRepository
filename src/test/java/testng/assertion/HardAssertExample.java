@@ -19,6 +19,6 @@ public class HardAssertExample {
         WebElement userNameTextBox = driver.findElement(By.id("login1"));
         Assert.assertEquals(title, "rediffmail", "Rediffmail title should be match");
         Assert.assertTrue(userNameTextBox.isDisplayed(), "Username text box should be display");
-        driver.close();
+        
     }
 }
