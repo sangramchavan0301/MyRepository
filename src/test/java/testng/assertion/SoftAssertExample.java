@@ -23,6 +23,7 @@ public class SoftAssertExample {
         softAssert.assertTrue(userNameTextBox.isDisplayed(), "Username text box should be display");
         System.out.println("This is my area");
 	System.out.println("See changes reflected");
+	System.out.println("test jenkins");
         softAssert.assertAll();
         driver.close();
     }
