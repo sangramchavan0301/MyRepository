@@ -24,6 +24,7 @@ public class SoftAssertExample {
         System.out.println("This is my area");
 	System.out.println("See changes reflected");
 	System.out.println("test jenkins");
+	System.out.println("should be triggered");   
         softAssert.assertAll();
         driver.close();
     }
